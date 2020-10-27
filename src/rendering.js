@@ -474,6 +474,7 @@ export default function link(scope, elem, attrs, ctrl) {
   }
 
   function formatValue(value) {
+    return value;
     switch (true) {
       case (value >= 100):
         return data[0].formatValue(value);
